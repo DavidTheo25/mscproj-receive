@@ -15,7 +15,6 @@ class Recognize:
         self.detector = detector
         self.embedding_model = embedding_model
 
-    # TODO add a time limit
     def recognize(self, recognizer_path, le_path, user, confidence_limit=0.5):
 
         score = 0
